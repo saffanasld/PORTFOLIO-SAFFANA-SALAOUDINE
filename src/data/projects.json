@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "titre": "TXLFORMA",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "descriptionlongue": "Une boutique en ligne complète faite avec Next.js...",
+      "defi": "Cum autem commodis intervallata temporibus convivia longa et noxia coeperint apparari vel distributio sollemnium sportularum, anxia deliberatione tractatur an exceptis his quibus vicissitudo debetur, peregrinum invitari conveniet, et si digesto plene consilio id placuerit fieri, is adhibetur qui pro domibus excubat aurigarum aut artem tesserariam profitetur aut secretiora quaedam se nosse confingit.",
+      "image": "/images/logo-portfolio/txlforma.png",
+      "imageaccueil": "/images/logo-apercu/txlforma.png",
+      "couverture": "/images/couverture/txlforma.png",
+      "galerie": [
+        "/images/logo-apercu/txlforma.png",
+        "/images/logo-apercu/txlforma.png",
+        "/images/logo-apercu/txlforma.png"
+      ],
+      "lien": "https://txlforma.vercel.app",
+      "gitlien": "https://github.com/Athavv/txlforma",
+      "badges": ["Next.js", "Tailwind", "Stripe"]
+    },
+    {
+      "id": 2,
+      "titre": "TERRADATA",
+      "description": "Le site sur lequel vous naviguez actuellement.",
+      "descriptionlongue": "Le site sur lequel vous naviguez actuellement.",
+      "defi": "Cum autem commodis intervallata",
+      "image": "/images/logo-portfolio/terradata.png",
+      "imageaccueil": "/images/logo-apercu/terradata.png",
+      "couverture": "/images/couverture/txlforma.png",
+      "galerie": [
+        "/images/logo-apercu/txlforma.png",
+        "/images/logo-apercu/txlforma.png",
+        "/images/logo-apercu/txlforma.png"
+      ],
+      "lien": "https://votre-portfolio.com", 
+      "gitlien": "https://github.com/abibiou/SAE301ABISAFFANAMALICK",
+      "badges": ["React", "Framer Motion", "TypeScript"]
+    },
+    {
+        "id": 3,
+        "titre": "SUSHIFAST",
+        "description": "Le site sur lequel vous naviguez actuellement.",
+        "image": "/images/logo-portfolio/sushifast.png",
+        "lien": "https://sushisfastabisaffana.vercel.app",
+        "gitlien": "https://github.com/abibiou/sushisfastabisaffana",
+        "badges": ["React", "Framer Motion", "TypeScript"]
+    }, 
+    {
+        "id": 4,
+        "titre": "ACF2L",
+        "description": "Le site sur lequel vous naviguez actuellement.",
+        "image": "/images/logo-portfolio/aeroclub.png",
+        "lien": "https://abisaffanaacf2l.vercel.app",
+        "gitlien": "https://github.com/abibiou/SALAOUDINE_SAFFANA_VIGNESWARAN_ABI_ACF2L",
+        "badges": ["Html", "Bootstrap", "Css"]
+    },
+    {
+        "id": 5,
+        "titre": "WEBDOCUMENTAIRE",
+        "description": "Le site sur lequel vous naviguez actuellement.",
+        "image": "/images/logo-portfolio/webdoc.png",
+        "lien": "https://lesmillesmilles.vercel.app",
+        "gitlien": "https://github.com/HvKaps/WEBDOCUMENTAIRE_SAE",
+        "badges": ["Html", "Bootstrap", "Css", "Javascript"]
+    }
+  ]

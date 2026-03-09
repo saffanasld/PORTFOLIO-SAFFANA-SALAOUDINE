@@ -38,7 +38,7 @@ export function Experience() {
                 <span className="text-sm text-leather/70">{exp.role}</span>
               </div>
 
-              <p className="mt-4 text-xs lg:text-sm lg:text-justify leading-relaxed pt-4 border-t border-leather/10 ">
+              <p className="mt-4 text-xs lg:text-sm text-justify leading-relaxed pt-4 border-t border-leather/10 ">
                 {exp.detailslong}
               </p>
             </div>          

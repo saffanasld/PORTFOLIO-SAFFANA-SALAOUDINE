@@ -6,7 +6,7 @@
       "defi": "Le principal défi a été la coordination technique d'un projet full-stack en équipe, alors que nous étions tous en rythme d'alternance. Il a fallu synchroniser le développement du frontend React avec l'API Spring Boot à distance et sur des créneaux décalés. Pour réussir, nous avons mis en place une architecture modulaire, permettant à chacun de travailler sur ses fonctionnalités sans bloquer le reste du groupe. C'était aussi une première immersion dans un workflow professionnel complet : on a dû apprendre à utiliser Bitbucket pour le versioning et Jira pour le suivi des tickets et des sprints. Mais le challenge le plus complexe a été l'intégration de la 3D. Nous avons modélisé entièrement une salle de classe, mais le fichier de départ était extrêmement lourd et faisait ramer le site. Nous avons passer énormément de temps sur l'optimisation 3D.",
       "image": "/images/logo-portfolio/txlforma.png",
       "galerie": [
-        "/images/galerie/txlforma2.png",
+        "/images/galerie/txlforma1.mp4",
         "/images/galerie/txlforma2.png",
         "/images/galerie/txlforma3.png"
       ],
@@ -21,7 +21,7 @@
       "defi": "L’objectif était de rendre les données sur les biocontrôles accessibles et visuelles. Sur le plan technique, on a dû apprendre à manipuler des fichiers CSV et JSON, ce qui s'est fait assez naturellement. Par contre, l'importation des données CSV avec D3.js pour les injecter dans Chart.js a été compliqué. On a passé beaucoup de temps dans la documentation et les tutoriels pour réussir à lier les deux proprement, mais on a fini par obtenir des graphiques pertinents. On a cependant rencontré une vraie limite sur la partie 3D. Si nous avons réussi à modéliser les éléments des biocontrôles, nous avons été confrontés à un problème persistant : les textures disparaissaient systématiquement lors de l'importation sur le site. Malgré toutes nos recherches et nos tentatives, nous n'avons pas réussi à résoudre ce bug précis.",
       "image": "/images/logo-portfolio/terradata.png",
       "galerie": [
-        "/images/galerie/terradata2.png",
+        "/images/galerie/terradata1.mp4",
         "/images/galerie/terradata2.png",
         "/images/galerie/terradata3.png"
       ],
@@ -36,7 +36,7 @@
         "defi": "L'objectif était de transformer un catalogue de données JSON brut en une interface permet de naviguer entre les différents menus. C’est avec ce projet que j'ai découvert la logique des composants et, surtout, l'utilisation des Hooks comme useState et useEffect pour gérer l'état de l'application. On a appris à manipuler des données JSON pour créer des fonctionnalités de filtrage avancées comme isoler les menus selon leurs ingrédients. La gestion du routage avec React Router a aussi été une étape clé pour transformer ce qui n'était qu'une simple liste en une application multipages.",
         "image": "/images/logo-portfolio/sushifast.png",
         "galerie": [
-          "/images/galerie/sushifast2.png",
+          "/images/galerie/sushifast1.mp4",
           "/images/galerie/sushifast2.png",
           "/images/galerie/sushifast3.png"
         ],
@@ -51,7 +51,7 @@
       "defi": "Le défi majeur de ce webdocumentaire a été de concilier la technique web avec un travail de réalisation audiovisuelle sur le terrain. Contrairement à un site classique, nous avons dû gérer toute la chaîne de production. Il a fallu se déplacer dans la Cité des Mille-Mille, aller à la rencontre des habitants, et surtout maîtriser les contraintes techniques du tournage. Côté développement, la difficulté a été de rendre cette expérience immersive et interactive sans perdre l'utilisateur. L'objectif était de casser les clichés sur le quartier à travers une interface qui donne envie d'explorer.",
       "image": "/images/logo-portfolio/webdoc.png",
       "galerie": [
-        "/images/galerie/webdoc2.png",
+        "/images/galerie/webdoc1.mp4",
         "/images/galerie/webdoc2.png",
         "/images/galerie/webdoc3.png"
       ],
@@ -66,7 +66,7 @@
         "defi": "Le plus gros défi sur ACF2L a été de réaliser une refonte complète du site existant. Nous avons dû identifier tous les points de friction et problèmes de hiérarchie visuelle. Techniquement, le challenge était de transformer ce constat en une solution concrète. Nous avons d'abord maquetté une interface plus moderne sur Figma pour corriger les problèmes. Un point crucial de ce projet a été le passage au responsive design. Le site d'origine devenait illisible sur smartphone, avec des textes cachés ou mal centrés.",
         "image": "/images/logo-portfolio/acf2l.png",
         "galerie": [
-          "/images/galerie/acf2l2.png",
+          "/images/galerie/acf2l1.mp4",
           "/images/galerie/acf2l2.png",
           "/images/galerie/acf2l3.png"
         ],

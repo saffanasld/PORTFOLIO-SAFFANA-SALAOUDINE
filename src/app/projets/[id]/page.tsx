@@ -24,7 +24,7 @@ export default async function ProjetDetail({ params }: { params: Promise<{ id: s
                 <ArrowLeft size={14}/>
                 retour aux projets
             </Link>
-            <h1 className="font-serif font-semibold text-3xl lg:text-5xl mt-4">{projet.titre}</h1>
+            <h1 className="font-serif uppercase font-semibold text-3xl lg:text-5xl mt-4">{projet.titre}</h1>
         </div>
 
         <div className="flex gap-3 items-center">
@@ -74,19 +74,40 @@ export default async function ProjetDetail({ params }: { params: Promise<{ id: s
     </div>
 
     <div className="space-y-6 border-t border-leather/10">
-        <h2 className="text-sm font-normal uppercase tracking-wider text-center mt-6">Aperçus du projet</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {projet.galerie?.map((img, index) => (
+    <h2 className="text-sm font-normal uppercase tracking-wider text-center mt-6">Aperçus du projet</h2>
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {projet.galerie?.map((media, index) => {
+            const isVideo = media.match(/\.(mp4|webm|ogg)$/i);
+
+            return (
                 <div 
                     key={index} 
-                    className={`relative overflow-hidden bg-pearl border border-leather/5 ${index % 3 === 0 ? "md:col-span-2 aspect-[21/9]" : "aspect-[4/3]"}`}
-                    >
-                    <img src={img} alt={`Aperçu ${index}`} className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-700" />
+                    className={`relative overflow-hidden bg-pearl border border-leather/5 ${
+                        index % 3 === 0 ? "md:col-span-2 aspect-[21/9]" : "aspect-[4/3]"
+                    }`}
+                >
+                    {isVideo ? (
+                        <video 
+                            src={media} 
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline 
+                            className="w-full h-full object-cover object-top"
+                        />
+                    ) : (
+                        <img 
+                            src={media} 
+                            alt={`Aperçu ${index}`} 
+                            className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-1000" 
+                        />
+                    )}
                 </div>
-            ))}
-        </div>
+            );
+        })}
     </div>
+</div>
 
     <div className="mt-10 pt-10 border-t border-leather/10 flex flex-col items-center gap-4">
         <span className="text-xs uppercase tracking-wider text-leather/70">
@@ -98,7 +119,7 @@ export default async function ProjetDetail({ params }: { params: Promise<{ id: s
             className="group flex flex-col items-center gap-2"
         >
             <div className="overflow-hidden">
-                <h3 className="font-semibold text-3xl lg:text-5xl font-serif text-leather/80 group-hover:text-leather group-hover:translate-y-[-5%] transition-all duration-500">
+                <h3 className="font-semibold uppercase text-3xl lg:text-5xl font-serif text-leather/80 group-hover:text-leather group-hover:translate-y-[-5%] transition-all duration-500">
                     {nextProject.titre}
                 </h3>
             </div>

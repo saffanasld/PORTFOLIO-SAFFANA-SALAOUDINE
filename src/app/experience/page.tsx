@@ -1,7 +1,7 @@
 import { Experience } from "@/components/reusable/Experience";
 import { Formation } from "@/components/reusable/Formation";
 
-export default function ProjetsPage() {
+export default function ExpPage() {
   return (
     <div className="flex-grow flex flex-col">
       <div className="mb-6 md:mb-6 lg:mb-9">
@@ -9,7 +9,8 @@ export default function ProjetsPage() {
           Mon expérience
         </h1>
         <p className="mt-6 max-w-md text-sm lg:text-base">
-        Description à faire.
+          Les étapes clés de ma formation et de mon parcours professionnel, 
+          reflétant l'évolution de mes compétences.
         </p>
       </div>
 

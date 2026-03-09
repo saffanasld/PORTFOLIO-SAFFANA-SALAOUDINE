@@ -6,10 +6,21 @@ import Navbar from "@/components/common/Menu";
 import Footer from "@/components/common/Footer";
 import Cursor from "@/components/common/Curseur";
 import SmoothScroll from "@/components/common/SmoothScroll";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useLenis } from 'lenis/react';
 
 export default function ClientWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+
+  const lenis = useLenis();
+
+  useEffect(() => {
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, lenis]);
 
   return (
     <SmoothScroll>

@@ -8,7 +8,7 @@ export function Experience() {
       date: "2025 — actuel",
       contexte: "Alternance",
       details: "Sous l'égide du Lead Developer, j'ai piloté la conception et le déploiement d'une application web complète.",
-      detailslong: "J'ai conçu et développé une application web complète en autonomie avec Next.js et Tailwind CSS. J'ai géré l'intégralité du projet : de la modélisation de la base de données SQL jusqu'à la mise en place d'un système d'authentification sécurisé. L'objectif était de créer une interface fluide et performante pour faciliter le travail des utilisateurs au quotidien.",
+      detailslong: "Présente depuis trois ans au sein de la Direction de l'Immobilier et de l'Environnement (DIE), d'abord pour mes deux stages de BUT puis en alternance. J'ai conçu un portail web destiné aux agents de la préfecture, permettant de centraliser et effectuer diverses demandes immobilières. J'ai utilisé Next.js et Tailwind CSS pour le développement, tout en gérant la modélisation de la base de données PostgreSQL, la sécurisation des accès et la logique métier pour l'affichage des données.",
     }
   ];
 
@@ -38,7 +38,7 @@ export function Experience() {
                 <span className="text-sm text-leather/70">{exp.role}</span>
               </div>
 
-              <p className="mt-4 hidden md:block text-xs lg:text-sm lg:text-justify leading-relaxed pt-4 border-t border-leather/10 ">
+              <p className="mt-4 text-xs lg:text-sm lg:text-justify leading-relaxed pt-4 border-t border-leather/10 ">
                 {exp.detailslong}
               </p>
             </div>          

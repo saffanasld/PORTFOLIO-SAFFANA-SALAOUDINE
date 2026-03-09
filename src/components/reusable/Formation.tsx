@@ -7,13 +7,14 @@ export function Formation() {
       diplome: "BUT Métiers du Multimédia et de l’Internet",
       parcours: "Parcours Développement Web et Dispositifs Interactifs",
       lieu: "Université Gustave Eiffel, IUT de Meaux",
+      highlight: "Semestre d'échange international (2025) — UQAC, CANADA",
     },
     {
       annee: "2020 — 2023",
       diplome: "Baccalauréat Général",
       parcours: "Spécialités Mathématiques & Numérique et Sciences Informatiques",
       lieu: "Lycée Polyvalent Emilie du Chatelet, à Serris",
-    },
+    }
   ];
 
   return (
@@ -39,9 +40,20 @@ export function Formation() {
                   <h3 className="font-serif font-semibold text-xl lg:text-2xl">
                     {item.diplome}
                   </h3>
-                  <p className="text-sm text-leather/70">
-                    {item.parcours}
-                  </p>
+
+                  <div className="space-y-2">
+                    <p className="text-sm text-leather/70">
+                      {item.parcours}
+                    </p>
+                      {item.highlight && (
+                        <div className="mt-3 px-2 border-l border-leather">
+                          <p className="text-sm font-normal">
+                            {item.highlight}
+                          </p>
+                        </div>
+                      )}
+                  </div>
+
                   <p className="text-xs uppercase tracking-wide">
                     {item.lieu}
                   </p>

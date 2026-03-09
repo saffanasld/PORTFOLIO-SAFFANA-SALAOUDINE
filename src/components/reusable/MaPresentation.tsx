@@ -16,13 +16,18 @@ export default function MaPresentation() {
             Saffana Salaoudine
           </h2>
           <p className="text-xs lg:text-sm lg:text-justify leading-relaxed">
-            Développeuse passionnée par l'équilibre entre le design minimaliste et la performance technique. Mon approche repose sur une attention particulière aux détails et à l'expérience utilisateur, pour créer des solutions numériques élégantes et robustes.
+          Étudiante en 3ème année de BUT MMI à l'Université Gustave Eiffel, j'ai un profil 
+          plutôt scientifique et j'aime que mon travail soit bien structuré. Si j'ai une grande 
+          curiosité culturelle, ce qui me définit surtout, c'est mon besoin de rigueur.
+          Mon objectif est de poursuivre mes études vers un Master dans un domaine qui me 
+          passionne pour continuer à monter en compétences. Je cherche avant tout à m'épanouir 
+          professionnellement.
           </p>
 
           <div className="mt-5">
             <a 
-              href="/cv-saffana1.jpg"
-              download="CV_Saffana_Salaoudine.jpg"
+              href="/images/cv-saffana.pdf"
+              download="CV_SAFFANA_SALAOUDINE.pdf"
               target="_blank" 
               rel="noopener noreferrer"
             >

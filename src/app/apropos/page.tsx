@@ -10,7 +10,8 @@ export default function APropos() {
           À Propos
         </h1>
         <p className="mt-6 max-w-md text-sm lg:text-base">
-          Description à faire.
+          Présentation personnelle et aperçu des technologies et 
+          outils qui composent mon environnement de travail.
         </p>
       </div>
 

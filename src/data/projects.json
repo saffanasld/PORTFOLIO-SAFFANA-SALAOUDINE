@@ -2,64 +2,102 @@
     {
       "id": 1,
       "titre": "TXLFORMA",
-      "description": "Lorem ipsum dolor sit amet, consectetur.",
-      "descriptionlongue": "Une boutique en ligne complète faite avec Next.js...",
-      "defi": "Cum autem commodis intervallata temporibus convivia longa et noxia coeperint apparari vel distributio sollemnium sportularum, anxia deliberatione tractatur an exceptis his quibus vicissitudo debetur, peregrinum invitari conveniet, et si digesto plene consilio id placuerit fieri, is adhibetur qui pro domibus excubat aurigarum aut artem tesserariam profitetur aut secretiora quaedam se nosse confingit.",
+      "description": "TXLFORMA est une plateforme web complète de gestion de formations professionnelles dans le domaine du numérique.",
+      "defi": "Le principal défi a été la coordination technique d'un projet full-stack en équipe, alors que nous étions tous en rythme d'alternance. Il a fallu synchroniser le développement du frontend React avec l'API Spring Boot à distance et sur des créneaux décalés. Pour réussir, nous avons mis en place une architecture modulaire, permettant à chacun de travailler sur ses fonctionnalités sans bloquer le reste du groupe. C'était aussi une première immersion dans un workflow professionnel complet : on a dû apprendre à utiliser Bitbucket pour le versioning et Jira pour le suivi des tickets et des sprints. Mais le challenge le plus complexe a été l'intégration de la 3D. Nous avons modélisé entièrement une salle de classe, mais le fichier de départ était extrêmement lourd et faisait ramer le site. Nous avons passer énormément de temps sur l'optimisation 3D.",
       "image": "/images/logo-portfolio/txlforma.png",
-      "imageaccueil": "/images/logo-apercu/txlforma.png",
-      "couverture": "/images/couverture/txlforma.png",
       "galerie": [
-        "/images/logo-apercu/txlforma.png",
-        "/images/logo-apercu/txlforma.png",
-        "/images/logo-apercu/txlforma.png"
+        "/images/galerie/txlforma2.png",
+        "/images/galerie/txlforma2.png",
+        "/images/galerie/txlforma3.png"
       ],
       "lien": "https://txlforma.vercel.app",
       "gitlien": "https://github.com/Athavv/txlforma",
-      "badges": ["Next.js", "Tailwind", "Stripe"]
+      "badges": ["Html", "CSS", "Next.js", "Tailwind", "JavaScript", "Stripe", "JAVA", "SpringBoot", "API REST", "Blender 3D"]
     },
     {
       "id": 2,
       "titre": "TERRADATA",
-      "description": "Le site sur lequel vous naviguez actuellement.",
-      "descriptionlongue": "Le site sur lequel vous naviguez actuellement.",
-      "defi": "Cum autem commodis intervallata",
+      "description": "TERRADATA est un site présentant le domaine des biocontrôles et permet de visualiser des graphiques.",
+      "defi": "L’objectif était de rendre les données sur les biocontrôles accessibles et visuelles. Sur le plan technique, on a dû apprendre à manipuler des fichiers CSV et JSON, ce qui s'est fait assez naturellement. Par contre, l'importation des données CSV avec D3.js pour les injecter dans Chart.js a été compliqué. On a passé beaucoup de temps dans la documentation et les tutoriels pour réussir à lier les deux proprement, mais on a fini par obtenir des graphiques pertinents. On a cependant rencontré une vraie limite sur la partie 3D. Si nous avons réussi à modéliser les éléments des biocontrôles, nous avons été confrontés à un problème persistant : les textures disparaissaient systématiquement lors de l'importation sur le site. Malgré toutes nos recherches et nos tentatives, nous n'avons pas réussi à résoudre ce bug précis.",
       "image": "/images/logo-portfolio/terradata.png",
-      "imageaccueil": "/images/logo-apercu/terradata.png",
-      "couverture": "/images/couverture/txlforma.png",
       "galerie": [
-        "/images/logo-apercu/txlforma.png",
-        "/images/logo-apercu/txlforma.png",
-        "/images/logo-apercu/txlforma.png"
+        "/images/galerie/terradata2.png",
+        "/images/galerie/terradata2.png",
+        "/images/galerie/terradata3.png"
       ],
-      "lien": "https://votre-portfolio.com", 
+      "lien": "https://saeterradata.vercel.app", 
       "gitlien": "https://github.com/abibiou/SAE301ABISAFFANAMALICK",
-      "badges": ["React", "Framer Motion", "TypeScript"]
+      "badges": ["Html", "CSS", "Bootstrap", "JavaScript", "Chart.js", "D3.js", "Blender 3D"]
     },
     {
         "id": 3,
         "titre": "SUSHIFAST",
-        "description": "Le site sur lequel vous naviguez actuellement.",
+        "description": "SushiFast est une application web conçue pour un restaurant de sushis souhaitant présenter sa carte de manière interactive.",
+        "defi": "L'objectif était de transformer un catalogue de données JSON brut en une interface permet de naviguer entre les différents menus. C’est avec ce projet que j'ai découvert la logique des composants et, surtout, l'utilisation des Hooks comme useState et useEffect pour gérer l'état de l'application. On a appris à manipuler des données JSON pour créer des fonctionnalités de filtrage avancées comme isoler les menus selon leurs ingrédients. La gestion du routage avec React Router a aussi été une étape clé pour transformer ce qui n'était qu'une simple liste en une application multipages.",
         "image": "/images/logo-portfolio/sushifast.png",
+        "galerie": [
+          "/images/galerie/sushifast2.png",
+          "/images/galerie/sushifast2.png",
+          "/images/galerie/sushifast3.png"
+        ],
         "lien": "https://sushisfastabisaffana.vercel.app",
         "gitlien": "https://github.com/abibiou/sushisfastabisaffana",
-        "badges": ["React", "Framer Motion", "TypeScript"]
+        "badges": ["Html", "CSS", "Next.js", "Bootstrap"]
     }, 
     {
-        "id": 4,
-        "titre": "ACF2L",
-        "description": "Le site sur lequel vous naviguez actuellement.",
-        "image": "/images/logo-portfolio/aeroclub.png",
-        "lien": "https://abisaffanaacf2l.vercel.app",
-        "gitlien": "https://github.com/abibiou/SALAOUDINE_SAFFANA_VIGNESWARAN_ABI_ACF2L",
-        "badges": ["Html", "Bootstrap", "Css"]
+      "id": 4,
+      "titre": "WEBDOCUMENTAIRE",
+      "description": "Réalisation d'un web documentaire interactif qui met en lumière la Cité des Milles-Milles d'Aulnay-sous-Bois.",
+      "defi": "Le défi majeur de ce webdocumentaire a été de concilier la technique web avec un travail de réalisation audiovisuelle sur le terrain. Contrairement à un site classique, nous avons dû gérer toute la chaîne de production. Il a fallu se déplacer dans la Cité des Mille-Mille, aller à la rencontre des habitants, et surtout maîtriser les contraintes techniques du tournage. Côté développement, la difficulté a été de rendre cette expérience immersive et interactive sans perdre l'utilisateur. L'objectif était de casser les clichés sur le quartier à travers une interface qui donne envie d'explorer.",
+      "image": "/images/logo-portfolio/webdoc.png",
+      "galerie": [
+        "/images/galerie/webdoc2.png",
+        "/images/galerie/webdoc2.png",
+        "/images/galerie/webdoc3.png"
+      ],
+      "lien": "https://lesmillesmilles.vercel.app",
+      "gitlien": "https://github.com/HvKaps/WEBDOCUMENTAIRE_SAE",
+      "badges": ["Html", "CSS", "Bootstrap", "Javascript"]
     },
     {
         "id": 5,
-        "titre": "WEBDOCUMENTAIRE",
-        "description": "Le site sur lequel vous naviguez actuellement.",
-        "image": "/images/logo-portfolio/webdoc.png",
-        "lien": "https://lesmillesmilles.vercel.app",
-        "gitlien": "https://github.com/HvKaps/WEBDOCUMENTAIRE_SAE",
-        "badges": ["Html", "Bootstrap", "Css", "Javascript"]
+        "titre": "ACF2L",
+        "description": "ACF2L est un site vitrine de l'Aéro-Club de Frotey-les-Lure.",
+        "defi": "Le plus gros défi sur ACF2L a été de réaliser une refonte complète du site existant. Nous avons dû identifier tous les points de friction et problèmes de hiérarchie visuelle. Techniquement, le challenge était de transformer ce constat en une solution concrète. Nous avons d'abord maquetté une interface plus moderne sur Figma pour corriger les problèmes. Un point crucial de ce projet a été le passage au responsive design. Le site d'origine devenait illisible sur smartphone, avec des textes cachés ou mal centrés.",
+        "image": "/images/logo-portfolio/acf2l.png",
+        "galerie": [
+          "/images/galerie/acf2l2.png",
+          "/images/galerie/acf2l2.png",
+          "/images/galerie/acf2l3.png"
+        ],
+        "lien": "https://abisaffanaacf2l.vercel.app",
+        "gitlien": "https://github.com/abibiou/SALAOUDINE_SAFFANA_VIGNESWARAN_ABI_ACF2L",
+        "badges": ["Html", "CSS", "Bootstrap"]
+    },
+    {
+      "id": 6,
+      "titre": "MOdéLISATION ROBOT",
+      "description": "Modélisation d'un robot et de son décor en 3D.",
+      "defi": "La difficulté principale a été de coordonner l'assemblage des différentes parties du robot (bras, jambes, tête) modélisées séparément, pour obtenir une structure anatomique cohérente et harmonieuse. Sur l'environnement, nous avons exploré des techniques avancées comme les Geometry Nodes pour créer un système procédural de végétation (voir photo n°3). La complexité de la scène a rapidement rendu le fichier extrêmement lourd, et nous avons dû recréer une scène finale plus équilibrée pour garantir un rendu fluide.",
+      "image": "/images/logo-portfolio/robot.png",
+      "galerie": [
+        "/images/galerie/robot1.png",
+        "/images/galerie/robot2.png",
+        "/images/galerie/robot3.png"
+      ],
+      "badges": ["Blender 3D"]
+    },
+    {
+      "id": 7,
+      "titre": "LYCéEAPP",
+      "description": "LycéeApp est une application mobile conçue pour explorer et filtrer les données des lycées de la métropole.",
+      "defi": "Le plus gros défi sur ce projet a été la transition du développement web classique vers le mobile natif. C'était ma première expérience avec React Native, ce qui a nécessité de comprendre des concepts propres au mobile comme l'absence de balises HTML standards au profit de composants natifs (View et FlatList). J'ai notamment rencontré pas mal de difficultés avec l'installation et la configuration de NativeWind. Il a fallu comprendre la configuration du compilateur pour que les styles soient correctement appliqués aux composants natifs.",
+      "image": "/images/logo-portfolio/lyceeapp.png",
+      "galerie": [
+        "/images/galerie/lyceeapp1.png",
+        "/images/galerie/lyceeapp2.png",
+        "/images/galerie/lyceeapp3.png"
+      ],
+      "badges": ["Html", "CSS", "Nativewind", "React Native"]
     }
-  ]
+]

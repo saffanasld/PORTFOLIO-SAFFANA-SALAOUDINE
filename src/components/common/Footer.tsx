@@ -22,7 +22,7 @@ export default function Footer() {
             <a href="https://github.com/saffanasld" target="_blank" className="text-ivory/50 text-xs uppercase tracking-wide hover:text-ivory transition-colors">
               github
             </a>
-            <a href="www.linkedin.com/in/saffana-salaoudine-0711362a4" target="_blank" className="text-ivory/50 text-xs uppercase tracking-wide hover:text-ivory transition-colors">
+            <a href="https://www.linkedin.com/in/saffana-salaoudine-0711362a4/" target="_blank" className="text-ivory/50 text-xs uppercase tracking-wide hover:text-ivory transition-colors">
               linkedin
             </a>
           </div>

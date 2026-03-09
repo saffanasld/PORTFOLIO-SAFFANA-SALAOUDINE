@@ -38,8 +38,8 @@ export default function ContactPage() {
             Me contacter
           </h1>
           <p className="mt-6 max-w-md text-sm lg:text-base">
-            Un projet en tête ou une question ? N'hésitez pas à m'envoyer un message, 
-            je vous répondrai avec plaisir.
+              Un projet en tête ou une question ? N'hésitez pas à m'envoyer un message, 
+              je vous répondrai avec plaisir.
           </p>
         </div>
   
@@ -60,7 +60,7 @@ export default function ContactPage() {
               <h3 className="text-sm font-normal uppercase tracking-wider">Réseaux</h3>
                 <div className="flex gap-4 mt-2">
                     <a 
-                    href="www.linkedin.com/in/saffana-salaoudine-0711362a4" 
+                    href="https://www.linkedin.com/in/saffana-salaoudine-0711362a4/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-pearl border border-leather/10 flex items-center justify-center hover:bg-leather transition-all duration-300 group"

@@ -76,6 +76,21 @@
     },
     {
       "id": 6,
+      "titre": "Cérémonie de remise des diplomes",
+      "description": "Ce projet constitue notre projet tutoré de fin d'études.",
+      "defi": "Le défi majeur a été de gérer l'aspect événementiel sous des contraintes réelles. Contrairement à un projet classique, il fallait ici concilier une communication visuelle avec une structure technique. Au-delà de l'esthétique, l'enjeu technique portait sur l'implémentation d'un livre d'or numérique permettant le dépôt de messages textes ou vidéo, ainsi que la création d'une partie back-end pour la galerie photo par connexion. De cette façon, les diplômés ont la possibilité de télécharger leurs clichés directement via le site.",
+      "image": "/images/logo-portfolio/ceremonie.png",
+      "galerie": [
+        "/images/galerie/ceremonie1.mp4",
+        "/images/galerie/ceremonie2.png",
+        "/images/galerie/ceremonie3.png"
+      ],
+      "lien": "https://ceremonie-diplome-mmi.vercel.app",
+      "gitlien": "https://github.com/Athavv/CeremonieDiplomeMMI-Front",
+      "badges": ["Html", "CSS", "React.js", "Tailwind", "JavaScript"]
+    },
+    {
+      "id": 7,
       "titre": "MOdéLISATION ROBOT",
       "description": "Modélisation d'un robot et de son décor en 3D.",
       "defi": "La difficulté principale a été de coordonner l'assemblage des différentes parties du robot (bras, jambes, tête) modélisées séparément, pour obtenir une structure anatomique cohérente et harmonieuse. Sur l'environnement, nous avons exploré des techniques avancées comme les Geometry Nodes pour créer un système procédural de végétation (voir photo n°3). La complexité de la scène a rapidement rendu le fichier extrêmement lourd, et nous avons dû recréer une scène finale plus équilibrée pour garantir un rendu fluide.",
@@ -88,7 +103,7 @@
       "badges": ["Blender 3D"]
     },
     {
-      "id": 7,
+      "id": 8,
       "titre": "LYCéEAPP",
       "description": "LycéeApp est une application mobile conçue pour explorer et filtrer les données des lycées de la métropole.",
       "defi": "Le plus gros défi sur ce projet a été la transition du développement web classique vers le mobile natif. C'était ma première expérience avec React Native, ce qui a nécessité de comprendre des concepts propres au mobile comme l'absence de balises HTML standards au profit de composants natifs (View et FlatList). J'ai notamment rencontré pas mal de difficultés avec l'installation et la configuration de NativeWind. Il a fallu comprendre la configuration du compilateur pour que les styles soient correctement appliqués aux composants natifs.",

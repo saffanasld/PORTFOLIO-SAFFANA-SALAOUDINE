@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 export function Passions() {
   const items = [
-    { category: "mannequinat", img: "/images/passions/model1.jpg" },
+    { category: "photographie", img: "/images/passions/photographie.jpg" },
     { category: "amatrice d'art", img: "/images/passions/photo.jpg" },
     { category: "cuisiner", img: "/images/passions/cuisiner.jpg" },
-    { category: "voyager", img: "images/passions/voyage.jpg" },
+    { category: "voyager", img: "images/passions/voyager.jpg" },
   ];
 
   return (
